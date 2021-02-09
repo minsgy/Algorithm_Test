@@ -11,13 +11,13 @@ def algorithm(n):
         time_check.append([temp1, temp2])
 
     # 종료시간 기준 오름차순으로 정렬한다.
-    time_check[1].sort()
+    time_check.sort(key=lambda x: (x[1], x[0]))
     # time : 현재 회의 종료시간 설정
     time = time_check[0][1]
-    for i in range(len(time_check)):
+    for i in range(1, n):
         # 현 회의에 끝나는 시간이 뒷 회의 시작 시간보다 작아야함.
         # 그래야 회의가 끝난 상태에서 회의가 가능하기 때문이다.
-        if time < time_check[i][0]:
+        if time <= time_check[i][0]:
             # 회의가 끝난 상태에서의 들어온 회의
             count += 1  # 가능한 회의 개수 증가
             time = time_check[i][1]  # 현재 진행 중인 회의 시간 재설정
