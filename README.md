@@ -20,6 +20,8 @@
 - 구현(Implementation)
 - 깊이/너비문제(BFS/DFS)
 - 스택(Stack)
+- 정렬(Sort)
+- 문자열(String)
 
 ## 목표
 

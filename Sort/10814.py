@@ -8,7 +8,7 @@ for _ in range(n):
     age, name = sys.stdin.readline().rstrip().split()
     dic[name] = int(age)
 
-dic = sorted(dic.items(), key=lambda x: x, reverse=True)
+dic = sorted(dic.items(), key=lambda x: x[1], reverse=True)
 
 for name, age in dic:
     print(str(age) + ' ' + name)
