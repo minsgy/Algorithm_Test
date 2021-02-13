@@ -7,7 +7,7 @@ n = sys.stdin.readline().rstrip()
 stack = list()
 
 for i in n:
-
+    # 닫힌 태그 발견 시, 옳은 계산인지 확인하고, 옳다면 안에 든 스택을 다삭제하면서 숫자 값 계산을 저장한다.
     if i == ")":
         temp = 0
 
@@ -47,7 +47,7 @@ for i in n:
                     temp = int(top)
                 else:
                     temp = temp + int(top)
-
+    # 숫자는 계속해서 스택에 추가한다. (닫힌 태그 일때만 계산하기 때문이다.)
     else:
         stack.append(i)
 
