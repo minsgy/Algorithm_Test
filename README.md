@@ -31,3 +31,6 @@
 
 - 함수(def) 방식으로 기능을 구현.
 - 메인에서는 Input으로 값만 받고, return으로 돌려받아 출력함.
+
+## Card
+http://mazassumnida.wtf/api/v2/generate_badge?boj=dzm2002
