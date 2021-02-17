@@ -33,4 +33,4 @@
 - 메인에서는 Input으로 값만 받고, return으로 돌려받아 출력함.
 
 ## Card
-http://mazassumnida.wtf/api/v2/generate_badge?boj=dzm2002
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dzm2002"/>
