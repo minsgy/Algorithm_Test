@@ -17,7 +17,7 @@ for i in range(len(liner)):
         else:
             words[liner[i][j]] += pow(10, len(liner[i])-j-1)
 
-sort_liner = sorted(words.items(), key=lambda x: x[1], reverse=)
+sort_liner = sorted(words.items(), key=lambda x: x[1], reverse=True)
 result = 0
 num = 9
 
