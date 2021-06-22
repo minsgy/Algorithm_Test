@@ -23,3 +23,4 @@ def solution(progresses: list, speeds: list) -> list:
     return answer
 
 solution([93, 30, 55], [1, 30, 5], [2, 1])
+
