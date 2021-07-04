@@ -1,3 +1,4 @@
+# 2번 문제
 def solution(param0):
     types = {'BOOL': 1, 'SHORT': 2, 'FLOAT': 4, 'INT': 8, 'LONG': 16}
     size = [types[t] for t in param0]
