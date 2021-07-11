@@ -3,8 +3,7 @@
 ## 🔨사용 언어
 
 - Python3
-- C++
-- JS (7월 하반기 준비)
+- JS
 
 ## 💬풀이 방식
 
@@ -16,7 +15,7 @@
 
 ------
 
-- 2021. 05 ~ ing 계속 진행 중
+- 2021월 05 ~ ing 계속 진행 중
 - 매주 일요일 [Notion Review](https://www.notion.so/f2cd51dec4754db6aab879d4a9a986ec) 
 
 
@@ -28,15 +27,20 @@
 - 스택(Stack)
 - 정렬(Sort)
 - 문자열(String)
+- DP 
+- Tree
 
 ## 목표
 
 - 그리디/구현/깊이너비 한 문제씩 하루에 풀어서, 개강 전까지 100문제 해결.(2021/02/08 update)
 
+- 2021. 하반기 모든 코테 반타작 이상하기 (2021/07/11 update)
+
 ## 코드 해결 구성
 
 - 함수(def) 방식으로 기능을 구현.
 - 메인에서는 Input으로 값만 받고, return으로 돌려받아 출력함.
+- 모듈화 방식을 신경써서 하자.
 
 ## Card
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dzm2002"/>
